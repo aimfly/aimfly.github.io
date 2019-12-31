@@ -1,1 +1,50 @@
-theme: jekyll-theme-minimal
+title: 到不了的是远方，回不去的是故乡
+#author:
+email: aimfly@gmail.com
+#description: 
+#google_analytics: 
+show_excerpts: true
+lang: zh_cn
+excerpt_separator: <!--more-->
+paginate: 6
+paginate_path: "/page:num"
+markdown: kramdown
+theme: minima
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github:  aimfly
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - jekyll-sitemap
