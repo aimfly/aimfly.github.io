@@ -2,7 +2,6 @@ title: 到不了的是远方，回不去的是故乡
 #author:
 email: aimfly@gmail.com
 #description: 
-google_analytics: UA-155171773-1
 show_excerpts: true
 lang: zh_cn
 excerpt_separator: <!--more-->
@@ -10,6 +9,7 @@ paginate: 6
 paginate_path: "/page:num"
 markdown: kramdown
 theme: minima
+exclude: [bundle]
 minima:
   date_format: "%b %-d, %Y"
 
