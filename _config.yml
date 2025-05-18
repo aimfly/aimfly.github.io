@@ -48,3 +48,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-sitemap
+
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
